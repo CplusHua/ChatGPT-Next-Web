@@ -68,7 +68,8 @@ export const OpenaiPath = {
 export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lang
 export const DEFAULT_SYSTEM_TEMPLATE = `
 Current model: {{model}}
-Current time: {{time}}`;
+Current time: {{time}}
+回复默认使用中文`;
 
 export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
 
